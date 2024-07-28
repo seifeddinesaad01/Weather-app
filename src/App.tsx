@@ -1,12 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className='flex flex-col items-center justify-center bg-black'>
+      <Header />
+      <Main />
+    </div>
+
 
   );
 }
